@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 side-bar col-sm-auto">
+                <div class="logo">
+                    <h2>Dashboard</h2>
+                </div>
+                <nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
+                    <a href="#"><i class="icon-home"></i><span>Start</span></a>
+                    <a href="#"><i class="icon-doc-text"></i><span>Input</span></a>
+                    <a href="#"><i class="icon-users"></i><span>Users</span></a>
+                    <a href="#"><i class="icon-cog-alt"></i><span>Configuration</span></a>
+                    <a href="#"><i class="icon-logout"></i><span>Exit</span></a>
+                </nav>
+            </div>
+
+            <main class="main col">
+                <div class="row">
+                    <div class="column col-lg-7">
+                        <div class="widget new_input">
+                            <form action="">
+                                <h3 class="title">New Input</h3>
+                                <input type="text" placeholder="Entry Title">
+                                <textarea  placeholder="This is a example"></textarea>
+                                <div class="d-flex justify-content-end">
+                                    <button><i class=" icon icon-edit"></i>Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="column col-lg-5">
+                        <div class="widget statistics">
+                            <h3 class="title">Statistics</h3>
+                            <div class="container d-flex flex-wrap">
+                                <div class="box">
+                                    <h3>15,235</h3>
+                                    <p>View</p>
+                                </div>
+                                <div class="box">
+                                    <h3>1,831</h3>
+                                    <p>Records</p>
+                                </div>
+                                <div class="box">
+                                    <h3>$160,585</h3>
+                                    <p>Income</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="widget comments">
+                            <h3>Comments</h3>
+                            <div class="container">
+                                <div class="comment d-flex flex-wrap">
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="img/persona1.jpg" alt="" width="100">
+                                        </a>
+                                    </div> 
+                                    <div class="text">
+                                        <a href="#">Jon Long</a>
+                                        <p>In <a href="#">My First input</a></p>
+                                        <p class="text-comment">This is a text</p>
+                                    </div>
+                                    <div class="buttons d-flex justify-content-start flex-wrap w-100">
+                                        <button class="approved"><i class="icon icon-ok"></i>Approved</button>
+                                        <button class="cancel"><i class="icon icon-cancel"></i>Cancel</button>
+                                        <button class="block"><i class="icon icon-flag"></i>Block User</button>
+                                    </div>       
+                                </div>
+
+                                <div class="comment d-flex flex-wrap">
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="img/persona2.jpg" alt="" width="100">
+                                        </a>
+                                    </div> 
+                                    <div class="text">
+                                        <a href="#">Jon Long</a>
+                                        <p>In <a href="#">My First input</a></p>
+                                        <p class="text-comment">This is a text</p>
+                                    </div>
+                                    <div class="buttons d-flex justify-content-start flex-wrap w-100">
+                                        <button class="approved"><i class="icon icon-ok"></i>Approved</button>
+                                        <button class="cancel"><i class="icon icon-cancel"></i>Cancel</button>
+                                        <button class="block"><i class="icon icon-flag"></i>Block User</button>
+                                    </div>       
+                                </div>
+
+                                <div class="comment d-flex flex-wrap">
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="img/persona3.jpg" alt="" width="100">
+                                        </a>
+                                    </div> 
+                                    <div class="text">
+                                        <a href="#">Jon Long</a>
+                                        <p>In <a href="#">My First input</a></p>
+                                        <p class="text-comment">This is a text</p>
+                                    </div>
+                                    <div class="buttons d-flex justify-content-start flex-wrap w-100">
+                                        <button class="approved"><i class="icon icon-ok"></i>Approved</button>
+                                        <button class="cancel"><i class="icon icon-cancel"></i>Cancel</button>
+                                        <button class="block"><i class="icon icon-flag"></i>Block User</button>
+                                    </div>       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
